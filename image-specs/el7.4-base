@@ -10,5 +10,8 @@
 root-password password:123456
 update
 install qemu-guest-agent
+install cloud-init
 uninstall iwl*
+uninstall alsa-*
+uninstall *firmware*
 edit /boot/grub2/grub.cfg:s/set timeout=5/set timeout=0/g
